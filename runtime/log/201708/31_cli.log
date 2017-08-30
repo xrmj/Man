@@ -1,0 +1,50 @@
+[ 2017-08-31T00:02:00+08:00 ][ info ] [ LANG ] D:\UPUPW\htdocs\MyPro\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-08-31T00:02:00+08:00 ][ info ] [ BIND ] 'worker/Worker'
+[ 2017-08-31T00:02:00+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'worker',
+    1 => 'Worker',
+    2 => NULL,
+  ),
+)
+[ 2017-08-31T00:02:00+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-08-31T00:02:00+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-08-31T00:02:00+08:00 ][ error ] [0]Fatal error: Call to undefined function Workerman\Lib\pcntl_signal()[D:\UPUPW\htdocs\MyPro\vendor\workerman\workerman\Lib\Timer.php:57]
+[ 2017-08-31T00:02:55+08:00 ][ info ] [ LANG ] D:\UPUPW\htdocs\MyPro\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-08-31T00:02:55+08:00 ][ info ] [ BIND ] 'worker/Worker'
+[ 2017-08-31T00:02:55+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'worker',
+    1 => 'Worker',
+    2 => NULL,
+  ),
+)
+[ 2017-08-31T00:02:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-08-31T00:02:55+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-08-31T00:02:55+08:00 ][ error ] [0]Fatal error: Class 'Workerman\Worker' not found[D:\UPUPW\htdocs\MyPro\vendor\topthink\think-worker\src\Server.php:35]
+[ 2017-08-31T00:04:34+08:00 ][ info ] [ LANG ] D:\UPUPW\htdocs\MyPro\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-08-31T00:04:34+08:00 ][ info ] [ BIND ] 'worker/Worker'
+[ 2017-08-31T00:04:34+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'worker',
+    1 => 'Worker',
+    2 => NULL,
+  ),
+)
+[ 2017-08-31T00:04:34+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-08-31T00:04:34+08:00 ][ info ] [ PARAM ] array (
+)

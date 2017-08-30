@@ -124,29 +124,6 @@ trait Jump
         $response = Response::create($result, $type)->header($header);
         throw new HttpResponseException($response);
     }
-    
-    /**
-     * Hui返回数据
-     * @param  $ret
-     * @param array $header
-     * @throws HttpResponseException
-     */
-    protected function HuiMsg($ret, array $header = [])
-    {
-    	$result = [
-    			'status' => is_array($ret)?$ret['status']:0,
-    			'info'  => is_array($ret)?$ret['info']:$ret,
-    			'url'  => isset($ret['url'])?$ret['url']:''
-    	];
-    
-    	$type = $this->getResponseType();
-    	if ('html' == strtolower($type)) {
-    		$result = ViewTemplate::instance(Config::get('template'), Config::get('view_replace_str'))
-    		->fetch(Config::get('dispatch_error_tmpl'), $result);
-    	}
-    	$response = Response::create($result, $type)->header($header);
-    	throw new HttpResponseException($response);
-    }
 
     /**
      * URL重定向
