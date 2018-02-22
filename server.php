@@ -1,5 +1,4 @@
 <?php
-echo 1;
 define('APP_PATH', __DIR__ . '/application/');
 define('BIND_MODULE','worker/Worker');
 // 加载框架引导文件
